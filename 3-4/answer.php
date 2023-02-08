@@ -20,8 +20,8 @@ function checkAnswer($user_answer, $correct_answer) {
     }
 }
 ?>
-<wrapper>
-    <p><?php echo $user_name; ?>さんの結果は・・・？</p>
+<div class="wrapper">
+    <p class="top"><?php echo $user_name; ?>さんの結果は・・・？</p>
     <p>①の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
     <p><?php echo checkAnswer($user_answer1,$correct_answer1); ?></p>
@@ -31,5 +31,5 @@ function checkAnswer($user_answer, $correct_answer) {
     <p>③の答え</p>
     <!--作成した関数を呼び出して結果を表示-->
     <p><?php echo checkAnswer($user_answer3,$correct_answer3); ?></p>
-</wrapper>
+</div>
 

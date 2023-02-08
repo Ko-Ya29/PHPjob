@@ -2,27 +2,31 @@
     背景色、文字色の指定と中央寄せを行ってください。 */
 body {
     background-color: gray;
-    /* margin: 0 auto; */
 }
 
-wrapper {
-    width: 400px;
-    /* margin: 0 auto; */
+.wrapper {
     text-align: center;
     color: white;
+    font-family: serif;
 }
 
-p {
-    color: white;
-    padding-top: 50px;
+.index {
+    padding-top:40px;
+}
+
+.top {
+    padding-top:40px;
 }
 
 h1 {
     border-bottom: solid;
     padding-top: 150px;
-    font-family: serif;
 }
 
-form {
-    padding-top:40px;
+.button {
+    border-radius: 5px;
+}
+
+.radio_button {
+    margin-right: -3px;
 }
