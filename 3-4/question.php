@@ -18,27 +18,27 @@
         <h2>①ネットワークのポート番号は何番？</h2>
         <!--③ 問題のradioボタンを「foreach」を使って作成する-->
         <?php foreach ($answer1 as $value1) { ?>
-            <input type="radio" name="user_answer1">
+            <input type="radio" name="user_answer1" value="<?php echo $value1;?>">
             <?php echo $value1;
         } ?>
         <h2>②Webページを作成するための言語は？</h2>
         <!--③ 問題のradioボタンを「foreach」を使って作成する-->
         <?php foreach ($answer2 as $value2) { ?>
-            <input type="radio" name="user_answer2">
+            <input type="radio" name="user_answer2" value="<?php echo $value2;?>">
             <?php echo $value2;
         } ?>
         <h2>③MySQLで情報を取得するためのコマンドは？</h2>
         <!--③ 問題のradioボタンを「foreach」を使って作成する-->
         <?php foreach ($answer3 as $value3) { ?>
-            <input type="radio" name="user_answer3">
+            <input type="radio" name="user_answer3" value="<?php echo $value3;?>">
             <?php echo $value3;
         } ?>
         <br>
         <input type="submit" value="回答する" />
         <!--問題の正解の変数と名前の変数を[answer.php]に送る-->
-        <input type="hidden" name="user_name" value="$my_name" />
-        <input type="hidden" name="correct_answer1" value="$a1" />
-        <input type="hidden" name="correct_answer2" value="$a2" />
-        <input type="hidden" name="correct_answer3" value="$a3" />
+        <input type="hidden" name="user_name" value="<?php echo $my_name?>" />
+        <input type="hidden" name="correct_answer1" value="<?php echo $a1?>" />
+        <input type="hidden" name="correct_answer2" value="<?php echo $a2?>" />
+        <input type="hidden" name="correct_answer3" value="<?php echo $a3?>" />
     </form>
 </wrapper>

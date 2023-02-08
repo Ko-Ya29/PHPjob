@@ -6,12 +6,10 @@ $user_name = $_POST['user_name'];
 $user_answer1 = $_POST['user_answer1'];
 $user_answer2 = $_POST['user_answer2'];
 $user_answer3 = $_POST['user_answer3'];
-$user_answer = ;
 
 $correct_answer1 = $_POST['correct_answer1'];
 $correct_answer2 = $_POST['correct_answer2'];
 $correct_answer3 = $_POST['correct_answer3'];
-$correct_answer = ;
 
 //選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
 function checkAnswer($user_answer, $correct_answer) {
