@@ -8,4 +8,3 @@ function isEven(numbers) {
     }
 }
 let result = isEven(numbers);
-console.log(result);
