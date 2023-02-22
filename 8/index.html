@@ -41,17 +41,20 @@
     <script>
         //①onchangeで使用されている関数の中身を実装してください。
         function changeLang() {
-            let selectBox = document.getElementById('lang_select');
+            let selectBox = document.getElementById('lang_select').value;
             let trJpn = document.getElementById("jpn_tr");
             let trEn = document.getElementById("en_tr");
+            console.log(selectBox);
 
-            if (selectBox.id == "selected_jpn") {   
-                trJpn.style.display = "table-row";
-            } else if (selectBox.id == "selected_en") {                
-                trEn.style.display = "table-row";
-            } else if (selectBox.id == "selected_all") {                
-                trJpn.style.display = "table-row";
-                trEn.style.display = "table-row";
+            if (selectBox == "日本語") {   
+                trJpn.style.display = "block";
+                trEn.style.display = "none";
+            } else if (selectBox == "English") {     
+                trJpn.style.display = "none";           
+                trEn.style.display = "block";
+            } else if (selectBox == "全て表示") {                
+                trJpn.style.display = "block";
+                trEn.style.display = "block";
             }
         }
     </script>
