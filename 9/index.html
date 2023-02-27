@@ -18,12 +18,18 @@
     //  ここにjQueryを記入
       $('button').click(function(){
         function Open(){
-          $("left").animate({width:10},1000);
-          $("right").animate({width:10},1000);
+          $(".left").animate({width:0},2000);
+          $(".right").animate({width:0},2000);
         }
         function Close(){
-          $("left").animate({width:200},1000);
-          $("right").animate({width:200},1000);
+          $(".left").animate({width:'50%'},2000);
+          $(".right").animate({width:'50%'},2000);
+        }
+        this.classList.toggle('active');
+        if (this.classList.contains('active')) {
+          Open();
+        } else {
+          Close();
         }
       })
     </script>
