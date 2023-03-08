@@ -51,7 +51,7 @@ table {
     background-color: black;
     position: absolute;
     left: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .left.action{
     width: 0;
@@ -63,7 +63,7 @@ table {
     background-color: black;
     position: absolute;
     right: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .right.action{
     width: 0;
