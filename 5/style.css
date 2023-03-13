@@ -1,0 +1,114 @@
+.btn1 {
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background: rgb(0, 102, 255);
+    border-radius:5px;
+    margin-top: 3px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background: rgb(73, 75, 77);
+    border-radius:5px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.btn3 {
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background: rgb(219, 34, 34);
+    border-radius:5px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.button2 {
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    padding: 8px 20px;
+    border: none;
+    background: rgb(0, 102, 255);
+    border-radius:5px;
+    margin-top: 16px;
+}
+
+.container {
+    display: flex;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 170px;
+    font-size: 15px;
+    text-align: center;
+    color: #FFF;
+    border: none;
+    background: rgb(46, 177, 194);
+    border-radius:5px;
+    margin-left: 50px;
+    margin-top: 35px;
+    height: 40px;
+}
+
+.button {
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    padding: 8px 20px;
+    border: none;
+    background: rgb(0, 102, 255);
+    border-radius:5px;
+    margin-top: 16px;
+}
+
+th,td {
+    border: solid 1px;
+    border-color: #b4b1b1ec;
+}
+ 
+table {
+    border-collapse:  collapse;
+}
+
+th {
+    background-color: #dbdbdbec;
+    width: 180px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+td {
+    text-align: center;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.logout {
+    color: red;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
