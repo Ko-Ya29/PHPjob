@@ -36,6 +36,14 @@
     margin-bottom: 10px;
 }
 
+a {
+
+    color: inherit;
+  
+    text-decoration: none;
+  
+}
+ 
 .button2 {
     width: 180px;
     font-size: 20px;
